@@ -16,6 +16,7 @@ namespace WorkWithDataBase
         private async void Form1_Load(object sender, EventArgs e)
         {
             string ConnetcionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\3 курс\ПП\ПРсSQL\WorkWithDataBase\WorkWithDataBase\Database1.mdf;Integrated Security=True";
+            /*Кукушка*/
 
             sqlConnection = new SqlConnection(ConnetcionString);
 
